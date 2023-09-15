@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: { 
+        red: '#e4041f',
+        background: '#EEF2F6'
+      },
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        bebas: ['var(--font-bebas-neue)']
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
