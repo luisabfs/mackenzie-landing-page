@@ -1,4 +1,5 @@
 import { Header } from '@/components/Header';
+import { Grid } from '@/components/Grid';
 
 export default function Home() {
   return (
@@ -41,27 +42,20 @@ export default function Home() {
 
       <section className='flex flex-1 flex-grow text-gray-500'>
         <div className='w-full min-h-screen grid grid-cols-1 md:grid-cols-2 gap-8 p-10 lg:p-20'>
-           <div className='row-span-2 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
-           <p className='text-2xl text-gray-500 font-light'>
-            O Sistema Mackenzie de Ensino é líder na oferta de uma
+          <Grid paragraph='O Sistema Mackenzie de Ensino é líder na oferta de uma
             proposta educacional sustentada pela tradição cristã. Com
             materiais didáticos e soluções pedagógicas, atendemos mais
             de 400 escolas, incluindo unidades próprias e parceiras.
             Destacamo-nos como o primeiro sistema de ensino cristão e o
-            mais relevante academicamente no país.
-          </p>
-         
-          <div className='row-span-2 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
-          <p className='text-2xl text-gray-500 font-light'>
-            O Sistema Mackenzie de Ensino trabalha para fornecer uma
+            mais relevante academicamente no país.' />
+    
+          <Grid paragraph='O Sistema Mackenzie de Ensino trabalha para fornecer uma
             pedagogia cristã, com materiais e recursos didáticos, que
             conduza essa geração a glorificar a Deus por meio de uma
             atuação biblicamente orientada, social e culturalmente
-            relevantes.
-          </p>
+            relevantes.' />
 
-          <div className='row-span-2 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
-          <div>
+          <Grid element={<div>
             <h2 className='text-4xl text-slate-900 font-bold mb-5'>
               Histórico do <span className='text-red font-bold'>SME</span>
             </h2>
@@ -74,7 +68,8 @@ export default function Home() {
             <div className='my-5 text-end lg:text-start'>
               <h2 className='text-xl font-bold text-red'>SAIBA MAIS</h2>
             </div>
-          </div>
+          </div>} />
+          
         </div>
       </section>
     </main>
