@@ -1,4 +1,4 @@
-## Iniciando
+# Iniciando o projeto
 
 Estas instruções vão mostrar como fazer uma cópia deste projeto e executá-lo localmente em um ambiente de desenvolvimento.
 
@@ -20,7 +20,7 @@ pnpm dev
 
 🎉  Agora é só abrir [http://localhost:3000](http://localhost:3000) com o seu navegador!
 
-## Implementação
+# Implementação
 
 Principais bibliotecas:
 * [`NextJS`](https://nextjs.org/) - framework React que nos permite criar aplicações web full-stack
