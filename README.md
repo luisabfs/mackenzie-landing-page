@@ -2,7 +2,13 @@
 
 These instructions will show you how to make a copy of this project and run it locally in a development environment:
 
-First, run the development server:
+Clone the repository:
+
+```
+git clone https://github.com/luisabfs/mackenzie-landing-page.git
+```
+
+Run the development server:
 
 ```bash
 npm run dev
