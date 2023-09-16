@@ -9,10 +9,10 @@ export default function Home() {
         <div className='z-10 p-10 lg:p-20'>
           <Header />
           <div className='flex flex-col items-center'>
-            <h1 className='text-6xl sm:text-8xl text-center'><span className='text-white lg:text-slate-900 font-bold'>NOSSA</span> IDENTIDADE</h1>
+            <h1 className='text-6xl sm:text-8xl text-center transition ease-in-out '><span className='text-white lg:text-slate-900 font-bold'>NOSSA</span> IDENTIDADE</h1>
 
             <div className='flex flex-row pt-10 gap-10 flex-wrap'>
-              <div className='flex flex-2 h-[34rem] lg:h-[30rem] w-full lg:w-3/5  rounded-3xl shadow-2xl bg-gray-300' />
+              <div className='flex flex-2 h-[70vh] w-full lg:w-3/5  rounded-3xl shadow-2xl bg-gray-300' />
               
               <div className='flex flex-1 flex-col items-end lg:items-center'>
                 <h2 className='text-4xl text-slate-900 font-bold mb-5 visible lg:hidden self-start'>
@@ -20,7 +20,7 @@ export default function Home() {
                   <span className='text-red font-bold'> 150 anos </span>
                   de história
                 </h2>
-                <p className='text-2xl text-gray-500 lg:text-white font-light'>
+                <p className='text-2xl lg:text-xl text-gray-500 lg:text-white font-light'>
                     Com mais de 150 anos de história, o
                     Mackenzie é uma instituição educacional
                     pioneira, agente de inovações pedagógicas.
@@ -41,7 +41,7 @@ export default function Home() {
 
       <section className='flex flex-1 flex-grow text-gray-500'>
         <div className='w-full min-h-screen grid grid-cols-1 md:grid-cols-2 gap-8 p-10 lg:p-20'>
-           <div className='row-span-6 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
+           <div className='row-span-2 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
            <p className='text-2xl text-gray-500 font-light'>
             O Sistema Mackenzie de Ensino é líder na oferta de uma
             proposta educacional sustentada pela tradição cristã. Com
@@ -51,7 +51,7 @@ export default function Home() {
             mais relevante academicamente no país.
           </p>
          
-          <div className='row-span-6 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
+          <div className='row-span-2 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
           <p className='text-2xl text-gray-500 font-light'>
             O Sistema Mackenzie de Ensino trabalha para fornecer uma
             pedagogia cristã, com materiais e recursos didáticos, que
@@ -60,7 +60,7 @@ export default function Home() {
             relevantes.
           </p>
 
-          <div className='row-span-6 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
+          <div className='row-span-2 min-h-[16rem] rounded-3xl bg-gray-300 shadow-xl' />
           <div>
             <h2 className='text-4xl text-slate-900 font-bold mb-5'>
               Histórico do <span className='text-red font-bold'>SME</span>
